@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://hls3.04lv.com/live/H1455369.m3u8?txSecret=f45e44fceb604e8d2ca0a5614ae05453&txTime=6421B6F1&_s=stream
+https://c2ee45b2888d.eu-west-1.playback.live-video.net/api/video/v1/eu-west-1.916749774596.channel.Nwt5AcC4ZP3D.m3u8
