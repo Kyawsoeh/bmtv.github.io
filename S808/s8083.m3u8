@@ -1,5 +1,5 @@
 #EXTM3U 
 #EXT-X-VERSION:3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 12; 2201117TG Build/SKQ1.211103.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.91 Mobile Safari/537.36
+#EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://play1nm.hnyongshun.cn/live/hd-zh-1-3747133.m3u8?|Referer=https://www.24.live/
+https://play3-cf.score808tv.cc/auth%3D33116a4b94d477a0dbd1c611382f4e95b823d8b5d2cee22a6f991435ec8504eef6dc3af9bec21000456b1a5ee7809ab703d3d5faa3743e64fb89e3ce7bc0a036ef3ce3bd99f2abd4f702389bbcafe428d3d9f34b5471b9296fdc446f0224d08d1c710884bb8fa09159f9cc5e557773abd4fc29fedc5f86b5e2a0551e834fdce8dd41449099035fadf850af6d0b63c6890a58fdb8b6b6d96054304feb5ab1350c443dd87ab8a2c56ef37791f3eb637f90%26cid%3DLyIrw-5j4rF7yKHiRtJ_2230212%26_v%3D2%26_r%3DamN0U4%26_vis%3Db039585b90f323f461c0c94f58b7ef30cb5979171fbb2412f57bdfbe254f9b10%26_vvs%3Df22d63c5ff643803429504fea44570674cc29152dfdf897086d51b7593803ec0/app/c167380.m3u8
