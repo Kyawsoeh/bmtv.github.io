@@ -1,0 +1,5 @@
+#EXTM3U 
+#EXT-X-VERSION:3
+#EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
+#EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
+https://sports01.livnvess.com/live/stream-106737.m3u8?txSecret=b2ac94c4e1e49c8abbc09df789017f1f&txTime=64287f2c
