@@ -1,5 +1,5 @@
-#EXTINF:-1,ClearKey
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
+EXTM3U 
+#EXT-X-VERSION:3
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"d4lJR3iJ", "kid":"GCcyc5Mw" } ], "type":"temporary" }
 #EXTVLCOPT:http-referer=https://bdnewszh.com/
