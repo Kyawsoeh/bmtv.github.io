@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://mhdtv.co.in/jio/app/live/1985/Sports18_1_SD/479b4cbf0975ca3737671d3df89a99180af2e4a62a9b0a342634a66bc5082e5d7099c2a94144bf0f34fa1234ff58216345978fbd889e6e24d2c2a30cc76276fb64933c80d30823c180ea183daac810c9_playlist.m3u8
+https://cdn.raino.xyz/hls/stream16.m3u8
