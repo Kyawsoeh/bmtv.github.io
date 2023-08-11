@@ -1453,7 +1453,7 @@ function file_video(name, encoded_name, size, poster, url, mimeType, file_id, co
 			player_js = 'https://cdn.plyr.io/' + player_config.plyr_io_version + '/plyr.polyfilled.js'
 			player_css = 'https://cdn.plyr.io/' + player_config.plyr_io_version + '/plyr.css'
 		} else if (player_config.player == "videojs") {
-			player = `<video id="vplayer" poster="${poster}" muted=true class="video-js vjs-default-skin" controls preload="auto" width="100%" height="100%" data-setup='{"fluid": true}' style="--plyr-captions-text-color: #ffffff;--plyr-captions-background: #000000;">
+			player = `<video id="vplayer" poster="${poster}" muted=false class="video-js vjs-default-skin" controls preload="auto" width="100%" height="100%" data-setup='{"fluid": true}' style="--plyr-captions-text-color: #ffffff;--plyr-captions-background: #000000;">
       <source src="${url}" type="video/mp4" />
       <source src="${url}" type="video/webm" />
       <source src="${url}" type="video/avi" />
