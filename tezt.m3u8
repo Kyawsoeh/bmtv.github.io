@@ -4,3 +4,4 @@
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
 http://livetv.ktv.zone/2/play.m3u8
 https://live.tsports.com/live/tsports_live_720/index.m3u8
+https://fls.cdndac.lol/fls/eplayerSPORTTV1/tracks-v1a1/mono.m3u8
