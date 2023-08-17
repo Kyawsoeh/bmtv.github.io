@@ -1,1 +1,361 @@
-javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+
+.btn{padding:5px; background-color:white ; margin-left:auto; margin-right:auto; display:block; border :none; cursor: pointer; color:black; font-size:100%; line-height:15px; font-family:Fantasy;width:100%; }     a.sec{ text-decoration:none; color:black; font-size:120%; border:3px solid black; line-height:150%; font-family:Fantasy; border-radius: 5px; padding:5px; text-align:center; display:block; } a.sec:hover{ color:#FFF000; background-color:#3562A6; } img{ width:100%; height:11rem;padding:30px; display:block; margin-left:auto; margin-right:auto; } @media screen and (orientation: portrait) { * { box-sizing: border-box; } .column { float: left; width:33.333333%; padding:4px; margin-left:auto; margin-right:auto; display:block; } .row::after { content: ""; clear: both; display: table; } } @media screen and (orientation: landscape) { * { box-sizing: border-box; } .column { float: left; width:16.66667%; padding:4px; margin-left:auto; margin-right:auto; display:block; } .row::after { content: ""; clear: both; display: table; } }    
+
+</style>
+</head>
+<body style="background-color:black">
+
+
+
+<div class="container">
+
+<p></p>
+  
+<div class="row">
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black;" data-toggle="modal"data-target="#myModal"><b><img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BT_Sport_logo_2019.svg/440px-BT_Sport_logo_2019.svg.png">BT 1<p></p></button>
+</div>
+
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black;" data-toggle="modal"data-target="#myModal1"><b><img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BT_Sport_logo_2019.svg/440px-BT_Sport_logo_2019.svg.png">BT 2<p></p></button>
+</div>
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black;" data-toggle="modal"data-target="#myModal2"><b><img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BT_Sport_logo_2019.svg/440px-BT_Sport_logo_2019.svg.png ">BT 3<p></p></button>
+</div>
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black" data-toggle="modal"data-target="#myModal3"><b><img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BT_Sport_logo_2019.svg/440px-BT_Sport_logo_2019.svg.png ">BT 4<p></p></button>
+</div>
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black" data-toggle="modal"data-target="#myModal7"><b><img src ="https://fb-cdn.matchtv.ru/files/default/upload/9bdb/d239/9bdbd2393f62c892ffd18457a840c52e.svg "style="padding:22px">Match TV<p></button>
+</div>
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black" data-toggle="modal"data-target="#myModal8"><b><img src ="https://fb-cdn.matchtv.ru/files/default/upload/7168/f84a/7168f84a807771d47d5af0d7a0749ca1.svg "style="padding:1px">Match Pre<p></button>
+</div>
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black" data-toggle="modal"data-target="#myModal9"><b><img src ="https://fb-cdn.matchtv.ru/files/default/upload/a86c/df54/a86cdf54fdb7ab9e893986bcbbf8e017.svg "style="padding:1px">Match Ctry<p></button>
+</div>
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black" data-toggle="modal"data-target="#myModal10"><b><img src ="https://fb-cdn.matchtv.ru/files/default/upload/dfd7/8054/dfd78054f3b2b5a3ee14c527632ce48f.svg "style="padding:22px">Match Figh<p></button>
+</div>
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black" data-toggle="modal"data-target="#myModal4"><b><img src ="https://fb-cdn.matchtv.ru/files/default/upload/964b/5631/964b5631bc31a3141083cbd8520993f1.svg "style="padding:15px">Football 1<p></p></button>
+</div>
+
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black" data-toggle="modal"data-target="#myModal5"><b><img src ="https://fb-cdn.matchtv.ru/files/default/upload/1c9d/f020/1c9df020717d419561cac6c7b439dc00.svg "style="padding:15px">Football 2<p></button>
+</div>
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black" data-toggle="modal"data-target="#myModal6"><b><img src ="https://fb-cdn.matchtv.ru/files/default/upload/9baa/c2fe/9baac2fecd8a8a19f8e7072eb6c87cc7.svg "style="padding:15px">Football 3<p></button>
+</div>
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black" data-toggle="modal"data-target="#myModal11"><b><img src ="https://fb-cdn.matchtv.ru/files/default/upload/f2f6/45b7/f2f645b7cf0962908fdb5bb485bd0cad.svg"style="padding:22px">Match Are<p></button>
+</div>
+
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black" data-toggle="modal"data-target="#myModal12"><b><img src ="https://fast.ntvplus.tv/files/image/01/17/34/-channel!e1e.png "style="padding:15px">Match Plt<p></button>
+</div>
+
+<div class="column">  
+<b><button type="button"class="btn btn-info btn-lg"style="color:black" data-toggle="modal"data-target="#myModal13"><b><img src ="https://i.postimg.cc/VLvdw3S4/Picsart-23-03-27-11-53-02-579.png "style="padding:0px">Viasat SP<p></button>
+</div>
+
+</div>
+
+
+
+  <!-- For 0 -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+  <!-- Modal content-->
+      <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">×</button>
+          
+      
+      <h4 class="modal-title">BT Sport 1</h4></div>
+      <div class="modal-body"> 
+      
+             <b><a class="sec"href="go:bt1a">Link 1</a>   
+             
+                       
+            <br><a class="sec"href="go:bt1b">Link 2</a>   
+             
+                                                                     
+    </div></div></div></div>
+       
+ <!-- For 1 -->
+  <div class="modal fade" id="myModal1" role="dialog">
+   <div class="modal-dialog">
+ <!-- Modal content-->
+   <div class="modal-content">      
+   <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">BT Sport 2</h4></div>
+    <div class="modal-body">
+    
+<b><a class="sec"href="go:bt2a">Link 1</a>   
+             
+                       
+            <br><a class="sec"href="go:bt2b">Link 2</a>   
+                                 
+    </div></div></div></div>
+
+
+
+<!-- For 2-->
+  <div class="modal fade" id="myModal2" role="dialog">
+   <div class="modal-dialog">
+ <!-- Modal content-->
+   <div class="modal-content">      
+   <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">BT Sport 3</h4></div>
+    <div class="modal-body">
+    
+        <b><a class="sec"href="go:bt3">Link 1</a>   
+             
+                                    
+    </div></div></div></div>
+    
+<!-- For 3 -->
+  <div class="modal fade" id="myModal3" role="dialog">
+   <div class="modal-dialog">
+ <!-- Modal content-->
+   <div class="modal-content">      
+   <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">BT Sport 4</h4></div>
+            <div class="modal-body">
+            
+            <b><a class="sec"href="go:bt4">Link 1</a>               
+                    
+                        
+         
+                                     
+    </div></div></div></div>
+    
+
+  <!-- For 4-->
+  <div class="modal fade" id="myModal4" role="dialog">
+    <div class="modal-dialog">
+  <!-- Modal content-->
+      <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Fubol 1</h4></div>
+      <div class="modal-body"> 
+         
+           <b><a class="sec"href="go:fu1a">Link 1</a>   
+             
+                       
+            <br><a class="sec"href="go:fu1b">Link 2</a>  
+            
+              <br><a class="sec"href=" intent://cdn.spmr.tv:8080/f6x6no/video.m3u8?token=ZKF89T31BF#Intent;action=android.intent.action.VIEW;scheme=http;type=video/live;end">Link 3 ( Use MX Player )</a>        
+  
+    </div></div></div></div>
+    
+    
+  <!-- For 5-->
+  <div class="modal fade" id="myModal5" role="dialog">
+    <div class="modal-dialog">
+  <!-- Modal content-->
+      <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Fubol 2</h4></div>
+      <div class="modal-body"> 
+           
+         
+         <b><a class="sec"href="go:fu2a">Link 1</a>   
+             
+             <br><a class="sec"href="go:fu2b">Link 2</a>          
+            
+            
+              <br><a class="sec"href=" intent://cdn.spmr.tv:8080/t2czx3/video.m3u8?token=ZKF89T31BF#Intent;action=android.intent.action.VIEW;scheme=http;type=video/live;end">Link 2 ( Use MX Player )</a>      
+         
+    </div></div></div></div>
+
+  <!-- For 6-->
+  <div class="modal fade" id="myModal6" role="dialog">
+    <div class="modal-dialog">
+  <!-- Modal content-->
+      <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Fubol 3</h4></div>
+      <div class="modal-body"> 
+                                                          
+          <b><a class="sec"href="go:fu3a">Link 1</a>   
+             
+            <br><a class="sec"href="go:fu3b">Link 2</a>           
+            
+            <br><a class="sec"href=" intent://cdn.spmr.tv:8080/nb2pq7/video.m3u8?token=ZKF89T31BF#Intent;action=android.intent.action.VIEW;scheme=http;type=video/live;end">Link 2 ( Use MX Player )</a>    
+                                       
+  
+    </div></div></div></div>
+    
+      <!-- For 7-->
+  <div class="modal fade" id="myModal7" role="dialog">
+    <div class="modal-dialog">
+  <!-- Modal content-->
+      <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Match TV</h4></div>
+      <div class="modal-body"> 
+                                   
+                                          
+        <b><a class="sec"href="go:match1">Link 1</a>             
+          <br><a class="sec"href="go:match2">Link 2</a> 
+                     
+          <br><a class="sec"href="go:match3">Link 3</a>                     
+                
+          
+    </div></div></div></div>
+
+  <!-- For 8 -->
+  <div class="modal fade" id="myModal8" role="dialog">
+    <div class="modal-dialog">
+  <!-- Modal content-->
+      <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Match Premier</h4></div>
+      <div class="modal-body">                
+             
+             <b><a class="sec"href="go:matchpre">Link 1</a>             
+            
+                  
+              
+    </div></div></div></div>
+
+  <!-- For 9 -->
+  <div class="modal fade" id="myModal9" role="dialog">
+    <div class="modal-dialog">
+  <!-- Modal content-->
+      <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Match Country</h4></div>
+      <div class="modal-body">  
+               
+          <b><a class="sec"href="go:matchcou">Link 1</a>             
+            
+                  
+             
+                                                              
+    </div></div></div></div>
+
+  <!-- For 10 -->
+  <div class="modal fade" id="myModal10" role="dialog">
+    <div class="modal-dialog">
+  <!-- Modal content-->
+      <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Match Fighter</h4></div>
+      <div class="modal-body"> 
+         
+          <b><a class="sec"href="go:matchfig">Link 1</a>             
+            
+                    
+             
+    </div></div></div></div>
+    
+    <!-- For 11 -->
+  <div class="modal fade" id="myModal11" role="dialog">
+    <div class="modal-dialog">
+  <!-- Modal content-->
+      <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Match Arena</h4></div>
+      <div class="modal-body"> 
+         
+          <b><a class="sec"href="go:matchare">Link 1</a>             
+            
+                    
+             
+    </div></div></div></div>
+    
+    <!-- For 12 -->
+  <div class="modal fade" id="myModal12" role="dialog">
+    <div class="modal-dialog">
+  <!-- Modal content-->
+      <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Match Planet</h4></div>
+      <div class="modal-body"> 
+         
+          <b><a class="sec"href="go:matchpla">Link 1</a>             
+            
+                    
+             
+    </div></div></div></div>
+    
+    
+    <!-- For 13 -->
+  <div class="modal fade" id="myModal13" role="dialog">
+    <div class="modal-dialog">
+  <!-- Modal content-->
+      <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Viasat Sport</h4></div>
+      <div class="modal-body"> 
+         
+          <b><a class="sec"href="go:viasatsp">Link 1</a>             
+            
+                    
+             
+    </div></div></div></div>
+                                         
+
+    
+     <!--<br>  <p style="text-align:center;color:Gray">© bit.ly/bmtvfree</p>-->
+     
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script><script type="text/javascript"> 
+var closedModalHashStateId = "#modalClosed"; var openModalHashStateId = "#modalOpen";window.location.hash = closedModalHashStateId;   
+$('#myModal').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal1').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal1').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal2').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal2').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal3').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal3').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal4').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal4').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal5').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal5').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal6').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal6').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal7').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal7').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal8').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal8').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal9').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal9').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal10').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal10').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal11').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal11').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal12').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal12').on('hide.bs.modal', function(e) { window.history.back(); }); 
+$('#myModal13').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal13').on('hide.bs.modal', function(e) { window.history.back(); }); 
+
+
+ 
+</script>
+</body>
+</html>    
