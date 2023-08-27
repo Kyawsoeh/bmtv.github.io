@@ -2,5 +2,5 @@
 #EXT-X-VERSION:3
 #EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://livecdn-001.rumsport.com/stream/2/stream/2_hd/video_fmp4_dvr.m3u8
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_0",CHANNELS="2",NAME="English",LANGUAGE="eng",DEFAULT=YES,AUTOSELECT=YES,URI="https://livecdn-001.rumsport.com/stream/2/stream/2_hd/audio_fmp4_dvr.m3u8"
+https://livecdn-001.rumsport.com/stream2/9/stream2/9_hd/video_fmp4_dvr.m3u8
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_0",CHANNELS="2",NAME="English",LANGUAGE="eng",DEFAULT=YES,AUTOSELECT=YES,URI="https://livecdn-001.rumsport.com/stream2/9/stream2/9_hd/audio_fmp4_dvr.m3u8"
