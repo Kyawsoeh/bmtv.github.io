@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://dacastmmd.mmdlive.lldns.net/dacastmmd/b9167644baae43d2b53836abdddd3ffd/chunklist_b4628000.m3u8?p=79&s=1693059818&e=1693059938&h=e9432baf14c0f5e442a805116c600f4c
+https://storage.googleapis.com/origirealbit2/mux_video_ts/index-1.m3u8
