@@ -1,0 +1,5 @@
+#EXTM3U 
+#EXT-X-VERSION:3
+#EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
+#EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
+https://acdn.p2pcdn.xyz/xoilac/channel36.m3u8?auth_key=3000001693496675-0-0-2b24d9d80da569b5ad634f0525e10ee6
