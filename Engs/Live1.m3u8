@@ -2,5 +2,5 @@
 #EXT-X-VERSION:3
 #EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://livecdn.rumsport.com/stream/2/chunks.m3u8
+https://livecdn.rumsport.com/stream/2/chunks.m3u8?token=a564042ff91d97ad00244366b98eb22a5cec500f&is_vip=false&verify=1696074180-C2X%2BJDUmynmrXhJuwpXOTmpqUcEcLTe3TbOdj5OuT1c%3D
 
