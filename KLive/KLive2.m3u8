@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://streams.rooter.gg/hls/7e29c8034ff87018acc58e464dd9d228/hd720.m3u8
+https://streamweu-livectorprodmedia17-euwe.licdn.com/15f5f914-9af7-4be7-bd93-c6a7b97f09c9/L4E62b992071fc66000-livemanifest.ism/QualityLevels(3200000)/Manifest(video,format=m3u8-aapl-v3,audiotrack=audio_und)
