@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://spottlaola1at.akamaized.net/hls/live/2042025/3375897_3743345/master.m3u8?cid=28117&mid=41968031&ecid=3743345&pid=5&dtid=1&sid=453455394948&gc=-0I&gsd=hzo&grm=1&hdnea=exp=1696149555~acl=*/hls/live/2042025*/3375897_3743345/*~hmac=1738c81ad0dc7b4dd55ad4352ac8cc6a2b268a56f4a7d08fd98487c71df557bc&content=1645943
+https://work.ovo-line.com/live/n-1/chunks.m3u8
