@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://b7i4j3n3.stackpathcdn.com/dlive-mlxalnzcrj/1695568966/src/live.m3u8
+http://37.49.225.144/hls/s6.m3u8
