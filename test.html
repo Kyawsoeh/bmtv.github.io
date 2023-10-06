@@ -1,1 +1,226 @@
-1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BMTV</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<style>
+        
+      img{
+            width:100%;
+            height:11em;
+            border-radius:5px;
+            border:2px solid #333333;
+            margin-left:auto; 
+            margin-right:auto; display:block;
+            background-color:white;
+           
+        }
+        
+      a.movie{
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;  
+        text-decoration:none;
+        color:#D3D3D3;
+        text-align: left;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        font-family:Fantasy;
+        font-size:100%;
+        width:100%; 
+               
+    }
+
+     a:hover {
+       text-decoration:none;
+       ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+       transform:scale(1.1); 
+    
+}
+
+      .grid-container {
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(110px, 0fr));
+   grid-gap:10px;
+   margin-left:auto; margin-right:auto;
+   justify-content: center; 
+}
+
+        
+        .contain {
+  position: relative;
+  text-align: center;
+ 
+}
+      span{
+    position:absolute;
+    top:0px;
+    left:0px;
+    padding:0 10px;
+    line-height:2em;
+    color:white;
+    font-size:70.5%; 
+    font-family:Fantasy;
+    background-color:#660000;
+    border:2px solid #333333;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    
+}
+        
+        .centered {
+   white-space:nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;  
+   position: absolute;
+   top: 88%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-shadow:10px 10px 10px red;
+  /* border-bottom-right-radius: 5px;   
+   border-bottom-left-radius: 5px;*/
+   width:100%;  
+  
+   
+   
+   
+  
+  }
+  
+  input { all:unset; font: 16px system-ui; color:#000000; height: 42px; width:80%;background-color: white; border-radius: 3px; text-align:center;
+   } 
+  
+  ::placeholder { padding:10px; color:black; opacity:0.7; }
+  
+  dot{
+  list-style-type: none;
+}  
+   
+ a.next:hover {
+  background-color: #021737;
+  color:white;
+}
+
+
+.next{
+  
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 40%;
+    background-color: #042a63;
+    border-radius: 3px;
+    color: white;
+    padding: 10px 30px;
+    transition: all 0.25s ease-out;
+    -webkit-font-smoothing: antialiased;
+}  
+ 
+  @media screen and (orientation: portrait) { * { box-sizing: border-box; } .column { float:left; width:33.3333%; padding:5px; margin-left:auto; margin-right:auto; display:block; } .row::after { content: ""; clear: both; display: table; } }
+   @media screen and (orientation: landscape) { * { box-sizing: border-box; } .column { float: left; width:16.66667%; padding:4px; margin-left:auto; margin-right:auto; display:block; } .row::after { content: ""; clear: both; display: table; }.next{text-decoration: none;display: inline-block;padding-bottom: 30px; padding-top: 30px; text-align: center; width: 30%; background-color: #042a63; border-radius: 3px;color: white;padding: 10px 30px; transition: all 0.25s ease-out;-webkit-font-smoothing: antialiased;
+} }    
+
+</style>
+</head>
+<body style="background-color:#000000">
+       
+       
+    <div class="container">    
+   
+   <br /> 
+    <div class="contain">    
+    <input id="searchbar" onkeyup="search_movie()" type="text"
+name="search" placeholder="Search india movies..."> </div>
+       
+<br />
+
+<dot>
+
+<div class="grid-container">
+<div class="contain">    
+       <a class="movie" href="intent://pbm.kyaw001.workers.dev/0:/%F0%9F%93%BAMovies_&_Series%F0%9F%93%BA/Latest%20Movies/Indian%20Movies/Bloody%20Daddy%20(2023)%201080p.mp4#Intent;action=android.intent.action.VIEW;scheme=https;type=video/movie;end"><span>2023</span><img src="https://www.themoviedb.org/t/p/w188_and_h282_bestv2/gX8k6oKpIsWHpfWNz3Bu4wUuliA.jpg">Bloody Daddy</a>
+</div>
+
+
+<div class="contain">    
+        <a class="movie" href="intent://pbm.kyaw001.workers.dev/0:/%F0%9F%93%BAMovies_&_Series%F0%9F%93%BA/Latest%20Movies/Indian%20Movies/Pathaan%20(2023)%201080p.mp4#Intent;action=android.intent.action.VIEW;scheme=https;type=video/movie;end"><span>2023</span><img src="https://www.themoviedb.org/t/p/w188_and_h282_bestv2/h9E4aGGnK0RXYgSZxDfnIeUqyVv.jpg">Pathaan</a>
+</div>
+
+  
+<div class="contain">    
+        <a class="movie" href="intent://pbm.kyaw001.workers.dev/0:/%F0%9F%93%BAMovies_&_Series%F0%9F%93%BA/Latest%20Movies/Indian%20Movies/Pathaan%20(2023)%201080p.mp4#Intent;action=android.intent.action.VIEW;scheme=https;type=video/movie;end"><span>2023</span><img src="https://www.themoviedb.org/t/p/w188_and_h282_bestv2/h9E4aGGnK0RXYgSZxDfnIeUqyVv.jpg">Pathaan</a>
+</div>
+
+  
+<div class="contain">    
+        <a class="movie" href="intent://pbm.kyaw001.workers.dev/0:/%F0%9F%93%BAMovies_&_Series%F0%9F%93%BA/Latest%20Movies/Indian%20Movies/Pathaan%20(2023)%201080p.mp4#Intent;action=android.intent.action.VIEW;scheme=https;type=video/movie;end"><span>2023</span><img src="https://www.themoviedb.org/t/p/w188_and_h282_bestv2/h9E4aGGnK0RXYgSZxDfnIeUqyVv.jpg">Pathaan</a>
+</div>
+
+ 
+<div class="contain">    
+        <a class="movie" href="intent://pbm.kyaw001.workers.dev/0:/%F0%9F%93%BAMovies_&_Series%F0%9F%93%BA/Latest%20Movies/Indian%20Movies/Pathaan%20(2023)%201080p.mp4#Intent;action=android.intent.action.VIEW;scheme=https;type=video/movie;end"><span>2023</span><img src="https://www.themoviedb.org/t/p/w188_and_h282_bestv2/h9E4aGGnK0RXYgSZxDfnIeUqyVv.jpg">Pathaan</a>
+</div>
+
+ 
+<div class="contain">    
+        <a class="movie" href="intent://pbm.kyaw001.workers.dev/0:/%F0%9F%93%BAMovies_&_Series%F0%9F%93%BA/Latest%20Movies/Indian%20Movies/Pathaan%20(2023)%201080p.mp4#Intent;action=android.intent.action.VIEW;scheme=https;type=video/movie;end"><span>2023</span><img src="https://www.themoviedb.org/t/p/w188_and_h282_bestv2/h9E4aGGnK0RXYgSZxDfnIeUqyVv.jpg">Pathaan</a>
+</div>
+
+  
+<div class="contain">    
+        <a class="movie" href="intent://pbm.kyaw001.workers.dev/0:/%F0%9F%93%BAMovies_&_Series%F0%9F%93%BA/Latest%20Movies/Indian%20Movies/Pathaan%20(2023)%201080p.mp4#Intent;action=android.intent.action.VIEW;scheme=https;type=video/movie;end"><span>2023</span><img src="https://www.themoviedb.org/t/p/w188_and_h282_bestv2/h9E4aGGnK0RXYgSZxDfnIeUqyVv.jpg">Pathaan</a>
+</div>
+
+ 
+<div class="contain">    
+        <a class="movie" href="intent://pbm.kyaw001.workers.dev/0:/%F0%9F%93%BAMovies_&_Series%F0%9F%93%BA/Latest%20Movies/Indian%20Movies/Pathaan%20(2023)%201080p.mp4#Intent;action=android.intent.action.VIEW;scheme=https;type=video/movie;end"><span>2023</span><img src="https://www.themoviedb.org/t/p/w188_and_h282_bestv2/h9E4aGGnK0RXYgSZxDfnIeUqyVv.jpg">Pathaan</a>
+</div>
+
+ 
+<div class="contain">    
+        <a class="movie" href="intent://pbm.kyaw001.workers.dev/0:/%F0%9F%93%BAMovies_&_Series%F0%9F%93%BA/Latest%20Movies/Indian%20Movies/Pathaan%20(2023)%201080p.mp4#Intent;action=android.intent.action.VIEW;scheme=https;type=video/movie;end"><span>2023</span><img src="https://www.themoviedb.org/t/p/w188_and_h282_bestv2/h9E4aGGnK0RXYgSZxDfnIeUqyVv.jpg">Pathaan</a>
+</div>
+
+
+
+</div> <!--for gird-->
+</dot>
+<br>
+
+<div class="contain">
+<a href="go:pindia2" class="next">Go Page 2</a>
+</div>
+
+</div> <!--for container-->
+<br>
+
+
+<script>
+
+function search_movie() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('movie');
+      
+   for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
+    
+</script> 
+    </body>
+</html>
