@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			JW Player Reponsive Video
+		</title>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/jwplayer/5.10/jwplayer.js">
+		</script>
+		<style type="text/css">
+			html, body {
+				height: 100%;
+				width: 100%;
+				padding: 0;
+				margin: 0;
+			}
+			#player {
+				height: 100%;
+				width: 100%; 
+				padding: 0;
+			}
+		</style>
+	</head>
+	<body>
+	<div id="player">
+	</div>
+		<script type="text/javascript">
+			jwplayer("player").setup({
+				file: "https://bcovlive-a.akamaihd.net/r6b4170ad9e8e4ed49986ecc03bac588b/eu-west-1/eu-west-1/6058004203001/profile_1/chunklist.m3u8",
+				image: "http://testing.grappler.tk/files/2013/01/trailer_1080p.jpg",
+				height: "100%",
+				width: "100%",
+				stretching: "exactfit",
+				flashplayer:"//cdn.jsdelivr.net/jwplayer/5.10/player.swf"
+			});
+		</script>
+	</body>
+</html>
