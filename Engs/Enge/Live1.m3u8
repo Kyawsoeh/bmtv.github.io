@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://ctrl.laotv.la/live/TSport2/index.m3u8
+http://bananatv.org:25461/live/bananatv/bananatv/117.m3u8
