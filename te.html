@@ -1,58 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>BMTV</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<style>
+<span id="errorMessage" style="color: red" ></span>
 
- 
- .btn{
-      padding:25px; 
-      background-color:white ;
-      border:3px solid #FFFFFF; 
-      font-size:130%; 
-      font-family:Fantasy;
-      font-weight: bold;
-      margin:10px;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      width: 350px;
-      height: 80px;
-    
- }
- 
- .mycontainer{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 40px 0;
-    
- }
- 
- 
-  @media screen and (orientation: portrait) { * { box-sizing: border-box; } .column { float: bottom; width:90%; padding:8px; margin-left:auto; margin-right:auto; display:block; } .row::after { content: ""; clear: both; display: table; } } @media screen and (orientation: landscape) { * { box-sizing: border-box; } .column { float: left; width:50%; padding:8px; margin-left:auto; margin-right:auto; display:block; } .row::after { content: ""; clear: both; display: table; } 
-    
-    
- 
-  }    
-
-</style>
-</head>
-<body style="background-color:black">
-
-
-
-<div class="mycontainer">
-
-  
-<button type="button"class="btn btn-info btn-lg"style="color:black;" onclick="window.location.href='go:peng';">MOVIES</button>
-
-<button type="button"class="btn btn-info btn-lg"style="color:black;" onclick="window.location.href='go:phorr';">SERIES</button>
-
-</div>
-</body>
-</html>    
+else if(output == 'FALSE')
+      {
+        document.getElementById("errorMessage").innerHTML = "Failed to Login";     
+      }    
+    }).checkLogin(username, password);
