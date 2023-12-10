@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://cdn.hd-nfl.site/ch27/tracks-v1a1/mono.m3u8?token=c2VydmVyX3RpbWU9MTcwMjIxNTMxNSZoYXNoX3ZhbHVlPU9UbG1NVGs1TWpZek5qY3daR1JpT1dKa09ESXhZVE16Wm1GaE1HUmpPVEUmZXhwaXJ5PTE3MDIyMjYxMTUmaXA9MTAzLjIxNy4xNTcuMjA2
+https://nflarcadia.xyz/hls/s3.m3u8
