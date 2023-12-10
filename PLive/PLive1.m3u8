@@ -1,4 +1,4 @@
 #EXTM3U 
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://working.latsyoving.xyz/live/n-1/chunks.m3u8
+https://storage.googleapis.com/iphonertinr1/mux_video_ts/index-1.m3u8
