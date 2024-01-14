@@ -2,4 +2,4 @@
 #EXT-X-VERSION:3
 #EXTVLCOPT:http-user-agent="burhan.tv/9.6 (Linux;Android 7.1.2) ExoPlayerLib/2.8.4"
 #EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=1920x1080,NAME="1080p"
-https://pull01.rrwes.live/live/stream-991140_lhd.m3u8?txSecret=05e86728fec82c72fb02e1d0ccd25556&txTime=65a305f8
+https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1705251772-0-0-93fa467eef1c97fd955cb94965a3cc97
